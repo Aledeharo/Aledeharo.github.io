@@ -1,0 +1,57 @@
+header {
+display: flex;
+justify-content: space-between;
+min-height: 70px;
+background-color: darkturquoise;
+align-items: center;
+padding: 10px;
+}
+.nombre {
+    font-size: 36px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+body {font-family: sans-serif;
+margin:0;
+background-color: aquamarine;}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover {
+    color: white;
+}
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+
+.Historia {text-align: center;
+text-decoration: underline;
+font-size: 40px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Letras {text-align: center;}
+
+footer {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10%;
+}

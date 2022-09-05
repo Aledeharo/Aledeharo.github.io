@@ -1,0 +1,111 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: darkturquoise;
+    align-items: center;
+    padding: 10px;
+    }
+    .nombre {
+        font-size: 36px;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    .logo img {
+        height: 70px;
+        margin-right: 10px;
+    }
+    
+    body {font-family: sans-serif;
+    background-color: aquamarine;
+}
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    nav {
+        font-weight: 600;
+        padding-right: 10px;
+    }
+    nav a:hover {
+        color: white;
+    }
+    @media (max-width:700px) {
+        header {
+            flex-direction: column;
+        }
+    }
+
+.Pescados {
+border: 1px solid black;
+width: 15%;
+margin-top: 20px;
+margin-left: 20%;
+display: inline;
+float: left;
+background-color: cyan;
+}
+
+.Pescados caption {font-size: 30px;
+margin-bottom: 10px;
+font: bold;}
+
+.Pescados th, td {
+    width: 25%;
+vertical-align: top;
+border: 1px solid black;
+border-spacing: 0;
+}
+
+.Carne {
+    border: 1px solid black;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: inline;
+    float: left;
+    background-color: cyan;
+}
+
+.Carne caption {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font: bold;
+}
+
+.Carne th, td{  width: 25%;
+    vertical-align: top;
+    border: 1px solid black;
+    border-spacing: 0;}
+
+.Bebidas {
+    border: 1px solid black;
+width: 15%;
+margin-top: 20px;
+margin-left: 20px;
+display: inline;
+float: left;
+background-color: cyan;
+}
+
+.Bebidas caption {font-size: 30px;
+    margin-bottom: 10px;
+    font: bold;}
+
+.Bebidas th, td {
+    width: 25%;
+    vertical-align: top;
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+footer {margin-top: 450px;
+clear: both;
+color: black;
+font-size: 0.7em;}

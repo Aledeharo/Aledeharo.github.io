@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: darkturquoise;
+    align-items: center;
+    padding: 10px;
+    }
+    .nombre {
+        font-size: 36px;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    .logo img {
+        height: 70px;
+        margin-right: 10px;
+    }
+    
+    body {font-family: sans-serif;
+    background-color: aquamarine;
+}
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    nav {
+        font-weight: 600;
+        padding-right: 10px;
+    }
+    nav a:hover {
+        color: white;
+    }
+    @media (max-width:700px) {
+        header {
+            flex-direction: column;
+        }
+    }
+
+    #mapa {margin-top: 130px;
+    text-align: center;}
+
+    h2 {text-align: center;
+font-size: 40px;}
+
+address {font-size: 10px;}
